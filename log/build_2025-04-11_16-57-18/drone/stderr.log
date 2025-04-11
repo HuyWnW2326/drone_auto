@@ -1,0 +1,7 @@
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:29:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Kthis->OffboardControl::Vel[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  172 |                         [01;35m[KVel = std::clamp(Vel += 0.01, 0.0f, 1.0f)[m[K;
+      |                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:29:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Kthis->OffboardControl::Vel[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  177 |                         [01;35m[KVel = std::clamp(Vel -= 0.01, 0.0f, 1.0f)[m[K;
+      |                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

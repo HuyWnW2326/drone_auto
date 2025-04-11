@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[15.773s] [100%] [32m[1mLinking CXX executable drone_auto_node[0m
+[16.747s] [100%] Built target drone_auto_node
+[16.754s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[16.760s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[16.766s] -- Install configuration: ""
+[16.766s] -- Installing: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node
+[16.778s] -- Set runtime path of "/home/huy/drone_auto/install/drone/lib/drone/drone_auto_node" to ""
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv
+[16.778s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/package.dsv
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake
+[16.778s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.xml
+[16.780s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/drone

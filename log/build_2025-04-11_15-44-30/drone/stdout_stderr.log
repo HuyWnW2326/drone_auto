@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:180:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboardControl::velocity_setpoint()[m[K’
+  180 |                         [01;31m[Kvelocity_setpoint()[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:196:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid OffboardControl::velocity_setpoint(float, float, float)[m[K’
+  196 |     void [01;36m[Kvelocity_setpoint[m[K(float vx, float vy, float vz);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:196:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

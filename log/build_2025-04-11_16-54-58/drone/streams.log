@@ -1,0 +1,58 @@
+[0.009s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[2.312s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[2.312s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double)[m[K’
+[2.312s]   172 |                         Vel = [01;31m[Kstd::clamp(Vel += 0.01, 0.0, 1.0)[m[K;
+[2.312s]       |                               [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.312s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.312s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+[2.312s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+[2.312s]                  from [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:1[m[K:
+[2.312s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[2.312s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[2.312s]       |     [01;36m[K^~~~~[m[K
+[2.312s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.312s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.312s]   172 |                         Vel = [01;36m[Kstd::clamp(Vel += 0.01, 0.0, 1.0)[m[K;
+[2.312s]       |                               [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.312s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.312s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+[2.312s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+[2.312s]                  from [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:1[m[K:
+[2.312s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[2.312s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[2.312s]       |     [01;36m[K^~~~~[m[K
+[2.312s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.312s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.312s]   172 |                         Vel = [01;36m[Kstd::clamp(Vel += 0.01, 0.0, 1.0)[m[K;
+[2.312s]       |                               [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.312s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(float&, double, double)[m[K’
+[2.312s]   177 |                         Vel = [01;31m[Kstd::clamp(Vel -= 0.01, 0.0, 1.0)[m[K;
+[2.313s]       |                               [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.313s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.313s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+[2.313s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+[2.313s]                  from [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:1[m[K:
+[2.313s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[2.313s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[2.313s]       |     [01;36m[K^~~~~[m[K
+[2.313s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.313s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.313s]   177 |                         Vel = [01;36m[Kstd::clamp(Vel -= 0.01, 0.0, 1.0)[m[K;
+[2.313s]       |                               [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.313s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.313s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/offboard_control_mode__struct.hpp:8[m[K,
+[2.313s]                  from [01m[K/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/offboard_control_mode.hpp:7[m[K,
+[2.313s]                  from [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:1[m[K:
+[2.313s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[2.313s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[2.313s]       |     [01;36m[K^~~~~[m[K
+[2.313s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.313s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kdouble[m[K’)
+[2.313s]   177 |                         Vel = [01;36m[Kstd::clamp(Vel -= 0.01, 0.0, 1.0)[m[K;
+[2.313s]       |                               [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.350s] gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+[8.350s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+[8.350s] gmake: *** [Makefile:146: all] Error 2
+[8.352s] Invoked command in '/home/huy/drone_auto/build/drone' returned '2': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12

@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (drone) JobQueued: {'identifier': 'drone', 'dependencies': OrderedDict()}
+[0.000310] (drone) JobStarted: {'identifier': 'drone'}
+[0.005345] (drone) JobProgress: {'identifier': 'drone', 'progress': 'cmake'}
+[0.005767] (drone) JobProgress: {'identifier': 'drone', 'progress': 'build'}
+[0.006229] (drone) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huy/drone_auto/build/drone', '--', '-j12', '-l12'], 'cwd': '/home/huy/drone_auto/build/drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huy'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huy'), ('OLDPWD', '/home/huy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1618'), ('SYSTEMD_EXEC_PID', '2233'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19872'), ('COLCON_PREFIX_PATH', '/home/huy/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huy'), ('JOURNAL_STREAM', '8:9116'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/huy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/WnW:@/tmp/.ICE-unix/1938,unix/WnW:/tmp/.ICE-unix/1938'), ('INVOCATION_ID', 'f89ee65b56254a35825df888847d51cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:e5d1dcaa-e60f-460e-93a7-4f1db10da499'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huy/drone_auto/build/drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huy/my_ws/install/quadcopter/local/lib/python3.10/dist-packages:/home/huy/my_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/huy/my_ws/install/bme680_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble')]), 'shell': False}
+[0.034470] (drone) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_auto_node\x1b[0m\n'}
+[0.040946] (drone) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o\x1b[0m\n'}
+[0.099881] (-) TimerEvent: {}
+[0.200150] (-) TimerEvent: {}
+[0.300448] (-) TimerEvent: {}
+[0.400779] (-) TimerEvent: {}
+[0.501121] (-) TimerEvent: {}
+[0.601398] (-) TimerEvent: {}
+[0.701642] (-) TimerEvent: {}
+[0.801939] (-) TimerEvent: {}
+[0.902229] (-) TimerEvent: {}
+[1.002543] (-) TimerEvent: {}
+[1.102826] (-) TimerEvent: {}
+[1.203127] (-) TimerEvent: {}
+[1.303410] (-) TimerEvent: {}
+[1.403726] (-) TimerEvent: {}
+[1.504028] (-) TimerEvent: {}
+[1.604332] (-) TimerEvent: {}
+[1.704720] (-) TimerEvent: {}
+[1.805017] (-) TimerEvent: {}
+[1.905354] (-) TimerEvent: {}
+[2.002786] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.003043] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.003127] (drone) StderrLine: {'line': b'   79 |         [this](\x1b[01;35m\x1b[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg\x1b[m\x1b[K) {\n'}
+[2.003192] (drone) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.005430] (-) TimerEvent: {}
+[2.105729] (-) TimerEvent: {}
+[2.206095] (-) TimerEvent: {}
+[2.306430] (-) TimerEvent: {}
+[2.406767] (-) TimerEvent: {}
+[2.507120] (-) TimerEvent: {}
+[2.607498] (-) TimerEvent: {}
+[2.707951] (-) TimerEvent: {}
+[2.808385] (-) TimerEvent: {}
+[2.908722] (-) TimerEvent: {}
+[3.009043] (-) TimerEvent: {}
+[3.109370] (-) TimerEvent: {}
+[3.209703] (-) TimerEvent: {}
+[3.310042] (-) TimerEvent: {}
+[3.410425] (-) TimerEvent: {}
+[3.510787] (-) TimerEvent: {}
+[3.611144] (-) TimerEvent: {}
+[3.711484] (-) TimerEvent: {}
+[3.811916] (-) TimerEvent: {}
+[3.912253] (-) TimerEvent: {}
+[4.012591] (-) TimerEvent: {}
+[4.112928] (-) TimerEvent: {}
+[4.213259] (-) TimerEvent: {}
+[4.313667] (-) TimerEvent: {}
+[4.414140] (-) TimerEvent: {}
+[4.514469] (-) TimerEvent: {}
+[4.614824] (-) TimerEvent: {}
+[4.715159] (-) TimerEvent: {}
+[4.815499] (-) TimerEvent: {}
+[4.916049] (-) TimerEvent: {}
+[5.016388] (-) TimerEvent: {}
+[5.116797] (-) TimerEvent: {}
+[5.217094] (-) TimerEvent: {}
+[5.317394] (-) TimerEvent: {}
+[5.418083] (-) TimerEvent: {}
+[5.519055] (-) TimerEvent: {}
+[5.619375] (-) TimerEvent: {}
+[5.719741] (-) TimerEvent: {}
+[5.820134] (-) TimerEvent: {}
+[5.920637] (-) TimerEvent: {}
+[6.021132] (-) TimerEvent: {}
+[6.121586] (-) TimerEvent: {}
+[6.221981] (-) TimerEvent: {}
+[6.322386] (-) TimerEvent: {}
+[6.422910] (-) TimerEvent: {}
+[6.523261] (-) TimerEvent: {}
+[6.623713] (-) TimerEvent: {}
+[6.724146] (-) TimerEvent: {}
+[6.824543] (-) TimerEvent: {}
+[6.924961] (-) TimerEvent: {}
+[7.025450] (-) TimerEvent: {}
+[7.125992] (-) TimerEvent: {}
+[7.226352] (-) TimerEvent: {}
+[7.326661] (-) TimerEvent: {}
+[7.426986] (-) TimerEvent: {}
+[7.527337] (-) TimerEvent: {}
+[7.627682] (-) TimerEvent: {}
+[7.728073] (-) TimerEvent: {}
+[7.828423] (-) TimerEvent: {}
+[7.928796] (-) TimerEvent: {}
+[8.029120] (-) TimerEvent: {}
+[8.129432] (-) TimerEvent: {}
+[8.229773] (-) TimerEvent: {}
+[8.330098] (-) TimerEvent: {}
+[8.430430] (-) TimerEvent: {}
+[8.530856] (-) TimerEvent: {}
+[8.631173] (-) TimerEvent: {}
+[8.731492] (-) TimerEvent: {}
+[8.831907] (-) TimerEvent: {}
+[8.932262] (-) TimerEvent: {}
+[9.032576] (-) TimerEvent: {}
+[9.132936] (-) TimerEvent: {}
+[9.233243] (-) TimerEvent: {}
+[9.333572] (-) TimerEvent: {}
+[9.433916] (-) TimerEvent: {}
+[9.534259] (-) TimerEvent: {}
+[9.634601] (-) TimerEvent: {}
+[9.734942] (-) TimerEvent: {}
+[9.835241] (-) TimerEvent: {}
+[9.935542] (-) TimerEvent: {}
+[10.035884] (-) TimerEvent: {}
+[10.136229] (-) TimerEvent: {}
+[10.236572] (-) TimerEvent: {}
+[10.336859] (-) TimerEvent: {}
+[10.437208] (-) TimerEvent: {}
+[10.537494] (-) TimerEvent: {}
+[10.637774] (-) TimerEvent: {}
+[10.738124] (-) TimerEvent: {}
+[10.838420] (-) TimerEvent: {}
+[10.938774] (-) TimerEvent: {}
+[11.039112] (-) TimerEvent: {}
+[11.139450] (-) TimerEvent: {}
+[11.239744] (-) TimerEvent: {}
+[11.340017] (-) TimerEvent: {}
+[11.440319] (-) TimerEvent: {}
+[11.540667] (-) TimerEvent: {}
+[11.641020] (-) TimerEvent: {}
+[11.741365] (-) TimerEvent: {}
+[11.841669] (-) TimerEvent: {}
+[11.942037] (-) TimerEvent: {}
+[12.042341] (-) TimerEvent: {}
+[12.142681] (-) TimerEvent: {}
+[12.242959] (-) TimerEvent: {}
+[12.343236] (-) TimerEvent: {}
+[12.443571] (-) TimerEvent: {}
+[12.543923] (-) TimerEvent: {}
+[12.644257] (-) TimerEvent: {}
+[12.744601] (-) TimerEvent: {}
+[12.844965] (-) TimerEvent: {}
+[12.945250] (-) TimerEvent: {}
+[13.045542] (-) TimerEvent: {}
+[13.145920] (-) TimerEvent: {}
+[13.246321] (-) TimerEvent: {}
+[13.346716] (-) TimerEvent: {}
+[13.447009] (-) TimerEvent: {}
+[13.547319] (-) TimerEvent: {}
+[13.647658] (-) TimerEvent: {}
+[13.747960] (-) TimerEvent: {}
+[13.848297] (-) TimerEvent: {}
+[13.948665] (-) TimerEvent: {}
+[14.049095] (-) TimerEvent: {}
+[14.149556] (-) TimerEvent: {}
+[14.241366] (drone) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drone_auto_node\x1b[0m\n'}
+[14.249648] (-) TimerEvent: {}
+[14.349930] (-) TimerEvent: {}
+[14.450298] (-) TimerEvent: {}
+[14.550773] (-) TimerEvent: {}
+[14.651131] (-) TimerEvent: {}
+[14.751461] (-) TimerEvent: {}
+[14.851835] (-) TimerEvent: {}
+[14.952184] (-) TimerEvent: {}
+[15.052478] (-) TimerEvent: {}
+[15.152862] (-) TimerEvent: {}
+[15.198526] (drone) StdoutLine: {'line': b'[100%] Built target drone_auto_node\n'}
+[15.207830] (drone) CommandEnded: {'returncode': 0}
+[15.208452] (drone) JobProgress: {'identifier': 'drone', 'progress': 'install'}
+[15.215768] (drone) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huy/drone_auto/build/drone'], 'cwd': '/home/huy/drone_auto/build/drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huy'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huy'), ('OLDPWD', '/home/huy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1618'), ('SYSTEMD_EXEC_PID', '2233'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19872'), ('COLCON_PREFIX_PATH', '/home/huy/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huy'), ('JOURNAL_STREAM', '8:9116'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/huy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/WnW:@/tmp/.ICE-unix/1938,unix/WnW:/tmp/.ICE-unix/1938'), ('INVOCATION_ID', 'f89ee65b56254a35825df888847d51cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:e5d1dcaa-e60f-460e-93a7-4f1db10da499'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huy/drone_auto/build/drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huy/my_ws/install/quadcopter/local/lib/python3.10/dist-packages:/home/huy/my_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/huy/my_ws/install/bme680_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble')]), 'shell': False}
+[15.221304] (drone) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.222020] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node\n'}
+[15.227539] (drone) StdoutLine: {'line': b'-- Set runtime path of "/home/huy/drone_auto/install/drone/lib/drone/drone_auto_node" to ""\n'}
+[15.227648] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone\n'}
+[15.227870] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone\n'}
+[15.228010] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh\n'}
+[15.228219] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv\n'}
+[15.228387] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh\n'}
+[15.228512] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv\n'}
+[15.228661] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash\n'}
+[15.228847] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh\n'}
+[15.228991] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh\n'}
+[15.229070] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv\n'}
+[15.229152] (drone) StdoutLine: {'line': b'-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.dsv\n'}
+[15.229216] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone\n'}
+[15.229274] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake\n'}
+[15.229347] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake\n'}
+[15.229426] (drone) StdoutLine: {'line': b'-- Installing: /home/huy/drone_auto/install/drone/share/drone/package.xml\n'}
+[15.230619] (drone) CommandEnded: {'returncode': 0}
+[15.245371] (drone) JobEnded: {'identifier': 'drone', 'rc': 0}
+[15.245789] (-) EventReactorShutdown: {}

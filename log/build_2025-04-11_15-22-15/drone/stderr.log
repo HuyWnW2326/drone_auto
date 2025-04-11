@@ -1,0 +1,39 @@
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:131:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE[m[K’ was not declared in this scope; did you mean ‘[01m[KESTALE[m[K’?
+  131 |             switch([01;31m[KSTATE[m[K)
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KESTALE[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:134:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_state_[m[K’ was not declared in this scope
+  134 |                     if([01;31m[Knav_state_[m[K != MANUAL_MODE)
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:143:25:[m[K [01;31m[Kerror: [m[K‘[01m[Karming_state[m[K’ was not declared in this scope
+  143 |                     if(![01;31m[Karming_state[m[K)
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:152:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_state_[m[K’ was not declared in this scope
+  152 |                     if([01;31m[Knav_state_[m[K != TAKEOFF_MODE)
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:170:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_state_[m[K’ was not declared in this scope
+  170 |                     if([01;31m[Knav_state_[m[K != OFFBOARD_MODE)
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:173:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpoint_velocity[m[K’ was not declared in this scope
+  173 |                         [01;31m[Ksetpoint_velocity[m[K(1.0);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:15[m[K:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::landing()[m[K’:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:317:51:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_state_[m[K’ was not declared in this scope
+  317 |     RCLCPP_INFO(this->get_logger(), "Mode  = %d", [01;31m[Knav_state_[m[K);
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,16 @@
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel[m[K’ was not declared in this scope; did you mean ‘[01m[KVel[m[K’?
+  172 |                         [01;31m[Kvel[m[K = std::clamp(vel += 0.01, 0.0, 1.0);
+      |                         [01;31m[K^~~[m[K
+      |                         [32m[KVel[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel[m[K’ was not declared in this scope; did you mean ‘[01m[KVel[m[K’?
+  177 |                         [01;31m[Kvel[m[K = std::clamp(vel -= 0.01, 0.0, 1.0);
+      |                         [01;31m[K^~~[m[K
+      |                         [32m[KVel[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:184:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel[m[K’ was not declared in this scope; did you mean ‘[01m[KVel[m[K’?
+  184 |                         [01;31m[Kvel[m[K = 0;
+      |                         [01;31m[K^~~[m[K
+      |                         [32m[KVel[m[K
+gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

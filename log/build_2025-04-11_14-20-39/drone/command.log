@@ -1,0 +1,2 @@
+Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake /home/huy/drone_auto/src/drone -DCMAKE_INSTALL_PREFIX=/home/huy/drone_auto/install/drone
+Invoked command in '/home/huy/drone_auto/build/drone' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake /home/huy/drone_auto/src/drone -DCMAKE_INSTALL_PREFIX=/home/huy/drone_auto/install/drone

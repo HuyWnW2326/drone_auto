@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:29:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Kthis->OffboardControl::Vel[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  172 |                         [01;35m[KVel = std::clamp(Vel += 0.01, 0.0f, 1.0f)[m[K;
+      |                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:29:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Kthis->OffboardControl::Vel[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  177 |                         [01;35m[KVel = std::clamp(Vel -= 0.01, 0.0f, 1.0f)[m[K;
+      |                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable drone_auto_node[0m
+[100%] Built target drone_auto_node
+-- Install configuration: ""
+-- Installing: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node
+-- Set runtime path of "/home/huy/drone_auto/install/drone/lib/drone/drone_auto_node" to ""
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv
+-- Installing: /home/huy/drone_auto/install/drone/share/drone/package.dsv
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake
+-- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.xml

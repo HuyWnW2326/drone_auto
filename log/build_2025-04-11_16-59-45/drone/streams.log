@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[2.093s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[2.093s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:179:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KVel[m[K’
+[2.093s]   179 |                         [01;31m[KVel[m[K = std::clamp(Vel, 0.0f, 1.0f);
+[2.093s]       |                         [01;31m[K^~~[m[K
+[8.357s] gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+[8.358s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+[8.358s] gmake: *** [Makefile:146: all] Error 2
+[8.359s] Invoked command in '/home/huy/drone_auto/build/drone' returned '2': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12

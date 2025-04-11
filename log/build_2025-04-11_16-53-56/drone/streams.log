@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[2.183s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[2.184s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:172:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel[m[K’ was not declared in this scope; did you mean ‘[01m[KVel[m[K’?
+[2.184s]   172 |                         [01;31m[Kvel[m[K = std::clamp(vel += 0.01, 0.0, 1.0);
+[2.184s]       |                         [01;31m[K^~~[m[K
+[2.184s]       |                         [32m[KVel[m[K
+[2.187s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:177:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel[m[K’ was not declared in this scope; did you mean ‘[01m[KVel[m[K’?
+[2.187s]   177 |                         [01;31m[Kvel[m[K = std::clamp(vel -= 0.01, 0.0, 1.0);
+[2.187s]       |                         [01;31m[K^~~[m[K
+[2.187s]       |                         [32m[KVel[m[K
+[2.190s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:184:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel[m[K’ was not declared in this scope; did you mean ‘[01m[KVel[m[K’?
+[2.190s]   184 |                         [01;31m[Kvel[m[K = 0;
+[2.190s]       |                         [01;31m[K^~~[m[K
+[2.190s]       |                         [32m[KVel[m[K
+[8.254s] gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+[8.254s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+[8.255s] gmake: *** [Makefile:146: all] Error 2
+[8.256s] Invoked command in '/home/huy/drone_auto/build/drone' returned '2': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12

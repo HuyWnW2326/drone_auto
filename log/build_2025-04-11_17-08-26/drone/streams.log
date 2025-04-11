@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[2.694s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[2.694s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.694s]    79 |         [this]([01;35m[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg[m[K) {
+[2.694s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[20.783s] [100%] [32m[1mLinking CXX executable drone_auto_node[0m
+[22.596s] [100%] Built target drone_auto_node
+[22.608s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[22.609s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[22.615s] -- Install configuration: ""
+[22.615s] -- Installing: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node
+[22.626s] -- Set runtime path of "/home/huy/drone_auto/install/drone/lib/drone/drone_auto_node" to ""
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv
+[22.626s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/package.dsv
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake
+[22.626s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake
+[22.627s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.xml
+[22.628s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/drone

@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (drone) JobQueued: {'identifier': 'drone', 'dependencies': OrderedDict()}
+[0.000354] (drone) JobStarted: {'identifier': 'drone'}
+[0.005896] (drone) JobProgress: {'identifier': 'drone', 'progress': 'cmake'}
+[0.006379] (drone) JobProgress: {'identifier': 'drone', 'progress': 'build'}
+[0.006898] (drone) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huy/drone_auto/build/drone', '--', '-j12', '-l12'], 'cwd': '/home/huy/drone_auto/build/drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huy'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huy'), ('OLDPWD', '/home/huy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1618'), ('SYSTEMD_EXEC_PID', '2233'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20539'), ('COLCON_PREFIX_PATH', '/home/huy/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huy'), ('JOURNAL_STREAM', '8:9116'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/huy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/WnW:@/tmp/.ICE-unix/1938,unix/WnW:/tmp/.ICE-unix/1938'), ('INVOCATION_ID', 'f89ee65b56254a35825df888847d51cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:c696ca43-7730-47bc-98aa-4d62ff8973c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huy/drone_auto/build/drone'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huy/my_ws/install/quadcopter/local/lib/python3.10/dist-packages:/home/huy/my_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/huy/my_ws/install/bme680_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble')]), 'shell': False}
+[0.039886] (drone) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_auto_node\x1b[0m\n'}
+[0.050677] (drone) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o\x1b[0m\n'}
+[0.099934] (-) TimerEvent: {}
+[0.200207] (-) TimerEvent: {}
+[0.300510] (-) TimerEvent: {}
+[0.400771] (-) TimerEvent: {}
+[0.501057] (-) TimerEvent: {}
+[0.601458] (-) TimerEvent: {}
+[0.702106] (-) TimerEvent: {}
+[0.802600] (-) TimerEvent: {}
+[0.903108] (-) TimerEvent: {}
+[1.003497] (-) TimerEvent: {}
+[1.103869] (-) TimerEvent: {}
+[1.204295] (-) TimerEvent: {}
+[1.304600] (-) TimerEvent: {}
+[1.404958] (-) TimerEvent: {}
+[1.505293] (-) TimerEvent: {}
+[1.605653] (-) TimerEvent: {}
+[1.705983] (-) TimerEvent: {}
+[1.806367] (-) TimerEvent: {}
+[1.906865] (-) TimerEvent: {}
+[2.007310] (-) TimerEvent: {}
+[2.107721] (-) TimerEvent: {}
+[2.160448] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.160702] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:131:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KESTALE\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.160774] (drone) StderrLine: {'line': b'  131 |             switch(\x1b[01;31m\x1b[KSTATE\x1b[m\x1b[K)\n'}
+[2.160836] (drone) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.160900] (drone) StderrLine: {'line': b'      |                    \x1b[32m\x1b[KESTALE\x1b[m\x1b[K\n'}
+[2.165632] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:134:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_state_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.165795] (drone) StderrLine: {'line': b'  134 |                     if(\x1b[01;31m\x1b[Knav_state_\x1b[m\x1b[K != MANUAL_MODE)\n'}
+[2.165861] (drone) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.165921] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:135:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass OffboardControl\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmanual\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.165982] (drone) StderrLine: {'line': b'  135 |                         this->\x1b[01;31m\x1b[Kmanual\x1b[m\x1b[K();\n'}
+[2.166041] (drone) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.171086] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:143:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karming_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.171280] (drone) StderrLine: {'line': b'  143 |                     if(!\x1b[01;31m\x1b[Karming_state\x1b[m\x1b[K)\n'}
+[2.171349] (drone) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.176954] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:152:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_state_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.177223] (drone) StderrLine: {'line': b'  152 |                     if(\x1b[01;31m\x1b[Knav_state_\x1b[m\x1b[K != TAKEOFF_MODE)\n'}
+[2.177292] (drone) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177355] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:153:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass OffboardControl\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktakeoff\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.177417] (drone) StderrLine: {'line': b'  153 |                         this->\x1b[01;31m\x1b[Ktakeoff\x1b[m\x1b[K();\n'}
+[2.177479] (drone) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.182605] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:170:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_state_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.182988] (drone) StderrLine: {'line': b'  170 |                     if(\x1b[01;31m\x1b[Knav_state_\x1b[m\x1b[K != OFFBOARD_MODE)\n'}
+[2.183063] (drone) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.183125] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:171:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass OffboardControl\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Koffboard\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.183188] (drone) StderrLine: {'line': b'  171 |                         this->\x1b[01;31m\x1b[Koffboard\x1b[m\x1b[K();\n'}
+[2.183250] (drone) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.191603] (drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:173:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksetpoint_velocity\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.191803] (drone) StderrLine: {'line': b'  173 |                         \x1b[01;31m\x1b[Ksetpoint_velocity\x1b[m\x1b[K(1.0);\n'}
+[2.191872] (drone) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.207828] (-) TimerEvent: {}
+[2.308186] (-) TimerEvent: {}
+[2.408693] (-) TimerEvent: {}
+[2.509158] (-) TimerEvent: {}
+[2.609849] (-) TimerEvent: {}
+[2.710137] (-) TimerEvent: {}
+[2.810426] (-) TimerEvent: {}
+[2.910709] (-) TimerEvent: {}
+[3.011013] (-) TimerEvent: {}
+[3.111582] (-) TimerEvent: {}
+[3.212061] (-) TimerEvent: {}
+[3.312381] (-) TimerEvent: {}
+[3.412873] (-) TimerEvent: {}
+[3.513491] (-) TimerEvent: {}
+[3.613844] (-) TimerEvent: {}
+[3.714244] (-) TimerEvent: {}
+[3.814575] (-) TimerEvent: {}
+[3.914890] (-) TimerEvent: {}
+[4.015257] (-) TimerEvent: {}
+[4.115666] (-) TimerEvent: {}
+[4.215986] (-) TimerEvent: {}
+[4.316301] (-) TimerEvent: {}
+[4.416561] (-) TimerEvent: {}
+[4.516866] (-) TimerEvent: {}
+[4.617174] (-) TimerEvent: {}
+[4.717488] (-) TimerEvent: {}
+[4.817788] (-) TimerEvent: {}
+[4.918152] (-) TimerEvent: {}
+[5.018557] (-) TimerEvent: {}
+[5.118849] (-) TimerEvent: {}
+[5.219222] (-) TimerEvent: {}
+[5.319613] (-) TimerEvent: {}
+[5.419953] (-) TimerEvent: {}
+[5.520341] (-) TimerEvent: {}
+[5.620665] (-) TimerEvent: {}
+[5.721034] (-) TimerEvent: {}
+[5.821460] (-) TimerEvent: {}
+[5.921790] (-) TimerEvent: {}
+[6.022109] (-) TimerEvent: {}
+[6.122495] (-) TimerEvent: {}
+[6.222815] (-) TimerEvent: {}
+[6.323140] (-) TimerEvent: {}
+[6.423464] (-) TimerEvent: {}
+[6.523787] (-) TimerEvent: {}
+[6.624084] (-) TimerEvent: {}
+[6.724469] (-) TimerEvent: {}
+[6.824838] (-) TimerEvent: {}
+[6.925197] (-) TimerEvent: {}
+[7.025536] (-) TimerEvent: {}
+[7.125900] (-) TimerEvent: {}
+[7.226218] (-) TimerEvent: {}
+[7.326582] (-) TimerEvent: {}
+[7.426886] (-) TimerEvent: {}
+[7.527275] (-) TimerEvent: {}
+[7.627670] (-) TimerEvent: {}
+[7.728442] (-) TimerEvent: {}
+[7.829433] (-) TimerEvent: {}
+[7.893038] (drone) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1\n'}
+[7.893302] (drone) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2\n'}
+[7.893387] (drone) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.895310] (drone) CommandEnded: {'returncode': 2}
+[7.907212] (drone) JobEnded: {'identifier': 'drone', 'rc': 2}
+[7.917539] (-) EventReactorShutdown: {}
