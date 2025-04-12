@@ -1,0 +1,21 @@
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   79 |         [this]([01;35m[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::velocity_setpoint(float, float, float)[m[K’:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:313:49:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((1.2e+1 * ((double)std::cos(((OffboardControl*)this)->OffboardControl::Yaw_desired))) - (0.0 * ((double)std::sin(((OffboardControl*)this)->OffboardControl::Yaw_desired))))[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  313 |         msg.position = {[01;35m[K12.0 * cos(Yaw_desired) - 0.0 * sin(Yaw_desired)[m[K, 12.0 * sin(Yaw_desired) + 0.0 * cos(Yaw_desired), -3.0};
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:313:99:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((1.2e+1 * ((double)std::sin(((OffboardControl*)this)->OffboardControl::Yaw_desired))) + (0.0 * ((double)std::cos(((OffboardControl*)this)->OffboardControl::Yaw_desired))))[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  313 | desired) - 0.0 * sin(Yaw_desired), [01;35m[K12.0 * sin(Yaw_desired) + 0.0 * cos(Yaw_desired)[m[K, -3.0};
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void OffboardControl::velocity_setpoint([01;35m[Kfloat x[m[K, float y, float z){
+      |                                         [01;35m[K~~~~~~^[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void OffboardControl::velocity_setpoint(float x, [01;35m[Kfloat y[m[K, float z){
+      |                                                  [01;35m[K~~~~~~^[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void OffboardControl::velocity_setpoint(float x, float y, [01;35m[Kfloat z[m[K){
+      |                                                           [01;35m[K~~~~~~^[m[K

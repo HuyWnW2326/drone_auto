@@ -1,0 +1,40 @@
+[0.020s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[4.046s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[4.046s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.046s]    79 |         [this]([01;35m[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg[m[K) {
+[4.046s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.081s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::velocity_setpoint(float, float, float)[m[K’:
+[4.081s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.081s]   308 | void OffboardControl::velocity_setpoint([01;35m[Kfloat vx[m[K, float vy, float vz){
+[4.081s]       |                                         [01;35m[K~~~~~~^~[m[K
+[4.081s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.081s]   308 | void OffboardControl::velocity_setpoint(float vx, [01;35m[Kfloat vy[m[K, float vz){
+[4.081s]       |                                                   [01;35m[K~~~~~~^~[m[K
+[4.081s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.081s]   308 | void OffboardControl::velocity_setpoint(float vx, float vy, [01;35m[Kfloat vz[m[K){
+[4.082s]       |                                                             [01;35m[K~~~~~~^~[m[K
+[26.173s] [100%] [32m[1mLinking CXX executable drone_auto_node[0m
+[28.348s] [100%] Built target drone_auto_node
+[28.360s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[28.363s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[28.372s] -- Install configuration: ""
+[28.372s] -- Installing: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node
+[28.386s] -- Set runtime path of "/home/huy/drone_auto/install/drone/lib/drone/drone_auto_node" to ""
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh
+[28.386s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv
+[28.387s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/package.dsv
+[28.387s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone
+[28.387s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake
+[28.387s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake
+[28.387s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.xml
+[28.389s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/drone

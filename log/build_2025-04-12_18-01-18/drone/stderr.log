@@ -1,0 +1,14 @@
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   79 |         [this]([01;35m[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::velocity_setpoint(float, float, float)[m[K’:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void OffboardControl::velocity_setpoint([01;35m[Kfloat vx[m[K, float vy, float vz){
+      |                                         [01;35m[K~~~~~~^~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void OffboardControl::velocity_setpoint(float vx, [01;35m[Kfloat vy[m[K, float vz){
+      |                                                   [01;35m[K~~~~~~^~[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:308:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  308 | void OffboardControl::velocity_setpoint(float vx, float vy, [01;35m[Kfloat vz[m[K){
+      |                                                             [01;35m[K~~~~~~^~[m[K

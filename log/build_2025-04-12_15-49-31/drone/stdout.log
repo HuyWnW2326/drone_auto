@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[100%] [32m[1mLinking CXX executable drone_auto_node[0m

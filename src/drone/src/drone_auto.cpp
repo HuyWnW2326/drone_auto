@@ -100,6 +100,7 @@ public:
                 RCLCPP_INFO(this->get_logger(), "x_current   = %.3f ", x_current);
                 RCLCPP_INFO(this->get_logger(), "y_current   = %.3f ", y_current);
                 RCLCPP_INFO(this->get_logger(), "z_current   = %.3f ", z_current);
+                RCLCPP_INFO(this->get_logger(), "Yaw_desired   = %.3f ", Yaw_desired);
             }
             if(Rc_CH6 > 1500)
             {
@@ -120,6 +121,7 @@ public:
                         else 
                         {
                             STATE = ARMED;
+                            Yaw_desired = Yaw_current;
                             timer_count = 0;
                         }
                     break;
@@ -159,9 +161,6 @@ public:
             }
             else 
                 publish_vehicle_command(VehicleCommand::VEHICLE_CMD_DO_SET_MODE, 1, 3);
-            
-            
-
         };
         timer_ = this->create_wall_timer(10ms, timer_callback);
     }
@@ -232,6 +231,7 @@ private:
     int16_t STATE = READY;
     uint8_t arming_state;
     float Vel = 0.0;
+    float Yaw_desired = 0.0;
 
     uint8_t state_offboard = 0;
 
@@ -309,10 +309,10 @@ void OffboardControl::velocity_setpoint(float vx, float vy, float vz){
 	TrajectorySetpoint msg{};
 
 	msg.timestamp = this->get_clock()->now().nanoseconds() / 1000;
-
-	msg.position = {NAN, NAN, NAN};
-	msg.velocity = {vx, vy, vz};
-    msg.yaw = Yaw_hover;
+    
+    msg.position = {NAN, NAN, NAN};
+	msg.velocity = {vx * cos(Yaw_desired) - vy * sin(Yaw_desired), vx * sin(Yaw_desired) + vy * cos(Yaw_desired), vz};
+    msg.yaw = Yaw_desired;
     trajectory_setpoint_publisher_->publish(msg);
     RCLCPP_INFO(this->get_logger(), "Velocity command send");
 }
@@ -320,8 +320,8 @@ void OffboardControl::velocity_setpoint(float vx, float vy, float vz){
 void OffboardControl::publish_offboard_control_mode()
 {
     OffboardControlMode msg{};
-    msg.position = false;
-    msg.velocity = true;
+    msg.position = true;
+    msg.velocity = false;
     msg.acceleration = false;
     msg.attitude = false;
     msg.actuator = false;

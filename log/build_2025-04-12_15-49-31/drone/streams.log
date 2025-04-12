@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/huy/drone_auto/build/drone': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[2.843s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[2.843s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.843s]    79 |         [this]([01;35m[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg[m[K) {
+[2.843s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[18.363s] [100%] [32m[1mLinking CXX executable drone_auto_node[0m
+[19.479s] /usr/bin/ld: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: in function `OffboardControl::OffboardControl()::{lambda()#7}::operator()() const':
+[19.479s] drone_auto.cpp:(.text._ZZN15OffboardControlC4EvENKUlvE5_clEv[_ZZN15OffboardControlC4EvENKUlvE5_clEv]+0x3ef): undefined reference to `OffboardControl::landing()'
+[19.577s] collect2: error: ld returned 1 exit status
+[19.578s] gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:159: drone_auto_node] Error 1
+[19.579s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+[19.579s] gmake: *** [Makefile:146: all] Error 2
+[19.580s] Invoked command in '/home/huy/drone_auto/build/drone' returned '2': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
