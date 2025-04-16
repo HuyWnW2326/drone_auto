@@ -1,0 +1,228 @@
+[0.008s] Invoking command in '/home/huy/drone_auto/build/shape_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake /home/huy/drone_auto/src/shape_info -DCMAKE_INSTALL_PREFIX=/home/huy/drone_auto/install/shape_info
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.619s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.810s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.810s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.826s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.077s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.511s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.512s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.535s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.535s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.536s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.536s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.554s] -- Found PythonExtra: .so  
+[1.595s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.633s] -- Added test 'lint_cmake' to check CMake code style
+[1.634s] -- Added test 'xmllint' to check XML markup files
+[1.635s] -- Configuring done
+[1.658s] -- Generating done
+[1.666s] -- Build files have been written to: /home/huy/drone_auto/build/shape_info
+[1.672s] Invoked command in '/home/huy/drone_auto/build/shape_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake /home/huy/drone_auto/src/shape_info -DCMAKE_INSTALL_PREFIX=/home/huy/drone_auto/install/shape_info
+[1.674s] Invoking command in '/home/huy/drone_auto/build/shape_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/shape_info -- -j12 -l12
+[1.705s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.712s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.719s] [  6%] Built target ament_cmake_python_copy_shape_info
+[1.940s] running egg_info
+[1.942s] [  9%] [32mBuilding C object CMakeFiles/shape_info__rosidl_generator_c.dir/rosidl_generator_c/shape_info/msg/detail/shape_info__functions.c.o[0m
+[1.943s] [  9%] Built target shape_info__cpp
+[1.952s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.952s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.952s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.962s] creating shape_info.egg-info
+[1.962s] writing shape_info.egg-info/PKG-INFO
+[1.963s] writing dependency_links to shape_info.egg-info/dependency_links.txt
+[1.963s] writing top-level names to shape_info.egg-info/top_level.txt
+[1.963s] writing manifest file 'shape_info.egg-info/SOURCES.txt'
+[1.991s] [ 22%] [32m[1mLinking C shared library libshape_info__rosidl_generator_c.so[0m
+[2.027s] reading manifest file 'shape_info.egg-info/SOURCES.txt'
+[2.028s] writing manifest file 'shape_info.egg-info/SOURCES.txt'
+[2.032s] [ 22%] Built target shape_info__rosidl_generator_c
+[2.042s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.045s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.045s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.082s] [ 32%] Built target ament_cmake_python_build_shape_info_egg
+[2.215s] [ 35%] [32mBuilding CXX object CMakeFiles/shape_info__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_info/msg/shape_info__type_support.cpp.o[0m
+[2.240s] [ 38%] [32mBuilding CXX object CMakeFiles/shape_info__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_info/msg/detail/shape_info__type_support.cpp.o[0m
+[2.256s] [ 41%] [32mBuilding CXX object CMakeFiles/shape_info__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_info/msg/detail/dds_fastrtps/shape_info__type_support.cpp.o[0m
+[2.397s] [ 45%] [32mBuilding C object CMakeFiles/shape_info__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_info/msg/detail/shape_info__type_support.c.o[0m
+[2.406s] [ 48%] [32mBuilding CXX object CMakeFiles/shape_info__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_info/msg/shape_info__type_support.cpp.o[0m
+[2.432s] [ 51%] [32m[1mLinking C shared library libshape_info__rosidl_typesupport_introspection_c.so[0m
+[2.432s] [ 54%] [32m[1mLinking CXX shared library libshape_info__rosidl_typesupport_c.so[0m
+[2.437s] [ 58%] [32mBuilding CXX object CMakeFiles/shape_info__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_info/msg/detail/shape_info__type_support_c.cpp.o[0m
+[2.467s] [ 58%] Built target shape_info__rosidl_typesupport_introspection_c
+[2.506s] [ 58%] Built target shape_info__rosidl_typesupport_c
+[2.540s] [ 61%] [32m[1mLinking CXX shared library libshape_info__rosidl_typesupport_cpp.so[0m
+[2.573s] [ 61%] Built target shape_info__rosidl_typesupport_cpp
+[2.671s] [ 64%] [32m[1mLinking CXX shared library libshape_info__rosidl_typesupport_introspection_cpp.so[0m
+[2.678s] [ 67%] [32m[1mLinking CXX shared library libshape_info__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.706s] [ 67%] Built target shape_info__rosidl_typesupport_introspection_cpp
+[2.743s] [ 70%] [32m[1mLinking CXX shared library libshape_info__rosidl_typesupport_fastrtps_c.so[0m
+[2.745s] [ 70%] Built target shape_info__rosidl_typesupport_fastrtps_cpp
+[2.796s] [ 70%] Built target shape_info__rosidl_typesupport_fastrtps_c
+[2.810s] [ 70%] Built target shape_info
+[2.825s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.076s] [ 74%] Built target shape_info__py
+[3.090s] [ 77%] [32mBuilding C object CMakeFiles/shape_info__rosidl_generator_py.dir/rosidl_generator_py/shape_info/msg/_shape_info_s.c.o[0m
+[3.181s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/shape_info/libshape_info__rosidl_generator_py.so[0m
+[3.209s] [ 80%] Built target shape_info__rosidl_generator_py
+[3.224s] [ 90%] [32mBuilding C object CMakeFiles/shape_info__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shape_info/_shape_info_s.ep.rosidl_typesupport_c.c.o[0m
+[3.224s] [ 90%] [32mBuilding C object CMakeFiles/shape_info__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shape_info/_shape_info_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.224s] [ 90%] [32mBuilding C object CMakeFiles/shape_info__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shape_info/_shape_info_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.296s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/shape_info/shape_info_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.296s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/shape_info/shape_info_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.321s] [100%] [32m[1mLinking C shared library rosidl_generator_py/shape_info/shape_info_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.323s] [100%] Built target shape_info__rosidl_typesupport_introspection_c__pyext
+[3.323s] [100%] Built target shape_info__rosidl_typesupport_c__pyext
+[3.347s] [100%] Built target shape_info__rosidl_typesupport_fastrtps_c__pyext
+[3.355s] Invoked command in '/home/huy/drone_auto/build/shape_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/shape_info -- -j12 -l12
+[3.356s] Invoking command in '/home/huy/drone_auto/build/shape_info': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/shape_info
+[3.362s] -- Install configuration: ""
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/share/ament_index/resource_index/rosidl_interfaces/shape_info
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/shape_info.h
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/rosidl_generator_c__visibility_control.h
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__type_support.h
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__functions.h
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__functions.c
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__struct.h
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/library_path.sh
+[3.362s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/library_path.dsv
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_generator_c.so
+[3.363s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_generator_c.so" to ""
+[3.363s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info
+[3.363s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.363s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__rosidl_typesupport_fastrtps_c.h
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_fastrtps_c.so
+[3.363s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_fastrtps_c.so" to ""
+[3.363s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info
+[3.363s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.363s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__type_support.c
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__rosidl_typesupport_introspection_c.h
+[3.363s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_introspection_c.so
+[3.363s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_introspection_c.so" to ""
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_c.so
+[3.364s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_c.so" to ""
+[3.364s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info
+[3.364s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/shape_info.hpp
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.364s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__type_support.hpp
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__struct.hpp
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__builder.hpp
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__traits.hpp
+[3.364s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info
+[3.364s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.364s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.364s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/dds_fastrtps
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_fastrtps_cpp.so
+[3.365s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.365s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info
+[3.365s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg
+[3.365s] -- Up-to-date: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__type_support.cpp
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/include/shape_info/shape_info/msg/detail/shape_info__rosidl_typesupport_introspection_cpp.hpp
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_introspection_cpp.so
+[3.365s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_introspection_cpp.so" to ""
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_cpp.so
+[3.365s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_typesupport_cpp.so" to ""
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/pythonpath.sh
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/pythonpath.dsv
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info-0.0.0-py3.10.egg-info
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info-0.0.0-py3.10.egg-info/top_level.txt
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info-0.0.0-py3.10.egg-info/PKG-INFO
+[3.365s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg/_shape_info_s.c
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg/_shape_info.py
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg/__init__.py
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/_shape_info_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/__init__.py
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/_shape_info_s.ep.rosidl_typesupport_introspection_c.c
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/libshape_info__rosidl_generator_py.so
+[3.366s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/_shape_info_s.ep.rosidl_typesupport_c.c
+[3.390s] Listing '/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info'...
+[3.390s] Compiling '/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/__init__.py'...
+[3.390s] Listing '/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg'...
+[3.390s] Compiling '/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg/__init__.py'...
+[3.390s] Compiling '/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/msg/_shape_info.py'...
+[3.394s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.394s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.394s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.394s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.394s] -- Installing: /home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.394s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/local/lib/python3.10/dist-packages/shape_info/shape_info_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.394s] -- Installing: /home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_generator_py.so
+[3.394s] -- Set runtime path of "/home/huy/drone_auto/install/shape_info/lib/libshape_info__rosidl_generator_py.so" to ""
+[3.394s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/msg/ShapeInfo.idl
+[3.394s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/msg/ShapeInfo.msg
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/ament_index/resource_index/package_run_dependencies/shape_info
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/ament_index/resource_index/parent_prefix_path/shape_info
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/ament_prefix_path.sh
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/ament_prefix_path.dsv
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/path.sh
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/environment/path.dsv
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/local_setup.bash
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/local_setup.sh
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/local_setup.zsh
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/local_setup.dsv
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/package.dsv
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/ament_index/resource_index/packages/shape_info
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_generator_cExport.cmake
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_generator_cExport-noconfig.cmake
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_typesupport_fastrtps_cExport.cmake
+[3.395s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_introspection_cExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_cExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_cExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_generator_cppExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_introspection_cppExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_cppExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_info__rosidl_typesupport_cppExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_generator_pyExport.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/export_shape_info__rosidl_generator_pyExport-noconfig.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/rosidl_cmake-extras.cmake
+[3.396s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/ament_cmake_export_libraries-extras.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/ament_cmake_export_targets-extras.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_infoConfig.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/cmake/shape_infoConfig-version.cmake
+[3.397s] -- Installing: /home/huy/drone_auto/install/shape_info/share/shape_info/package.xml
+[3.399s] Invoked command in '/home/huy/drone_auto/build/shape_info' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/shape_info

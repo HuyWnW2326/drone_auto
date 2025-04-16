@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/huy/drone_auto/build/drone': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.067s] [100%] Built target drone_auto_node
+[0.076s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.077s] Invoking command in '/home/huy/drone_auto/build/drone': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[0.083s] -- Install configuration: ""
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash
+[0.084s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh
+[0.085s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh
+[0.085s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv
+[0.085s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/package.dsv
+[0.085s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone
+[0.085s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake
+[0.085s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake
+[0.085s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.xml
+[0.087s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huy/drone_auto/build/drone

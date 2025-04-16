@@ -239,6 +239,12 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: \
  /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_optical_flow_vel__builder.hpp \
  /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_optical_flow_vel__traits.hpp \
  /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_optical_flow_vel__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_local_position.hpp \
  /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__struct.hpp \
  /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__builder.hpp \

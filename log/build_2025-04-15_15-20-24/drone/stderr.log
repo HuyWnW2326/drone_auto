@@ -1,0 +1,12 @@
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::Controller_xyz(float, float, float)[m[K’:
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:517:85:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::array<float, 4>[m[K’ to ‘[01m[Kfloat*[m[K’
+  517 |     publish_vehicle_attitude_setpoint(Controller_z(DesiredValueZ), [01;31m[KRPY_to_Quaternion(Pitch_d, -Roll_d, Yaw_hover + M_PI/2)[m[K);
+      |                                                                    [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                     [01;31m[K|[m[K
+      |                                                                                     [01;31m[Kstd::array<float, 4>[m[K
+[01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:419:79:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid OffboardControl::publish_vehicle_attitude_setpoint(float, float*)[m[K’
+  419 | void OffboardControl::publish_vehicle_attitude_setpoint(float thrust_z, [01;36m[Kfloat quaternion[4][m[K)
+      |                                                                         [01;36m[K~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

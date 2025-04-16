@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/huy/drone_auto/build/drone': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.037s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.187s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.196s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.249s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.362s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.406s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.406s] -- Found px4_msgs: 2.0.1 (/home/huy/my_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.470s] -- Configuring done
+[0.478s] -- Generating done
+[0.480s] -- Build files have been written to: /home/huy/drone_auto/build/drone
+[0.501s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.514s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[16.700s] [100%] [32m[1mLinking CXX executable drone_auto_node[0m
+[17.722s] [100%] Built target drone_auto_node
+[17.731s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[17.732s] Invoking command in '/home/huy/drone_auto/build/drone': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[17.737s] -- Install configuration: ""
+[17.737s] -- Installing: /home/huy/drone_auto/install/drone/lib/drone/drone_auto_node
+[17.745s] -- Set runtime path of "/home/huy/drone_auto/install/drone/lib/drone/drone_auto_node" to ""
+[17.745s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/package_run_dependencies/drone
+[17.745s] -- Installing: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/parent_prefix_path/drone
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.sh
+[17.746s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/environment/ament_prefix_path.dsv
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/environment/path.sh
+[17.746s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/environment/path.dsv
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.bash
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.sh
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/local_setup.zsh
+[17.746s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/local_setup.dsv
+[17.746s] -- Installing: /home/huy/drone_auto/install/drone/share/drone/package.dsv
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/ament_index/resource_index/packages/drone
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig.cmake
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/cmake/droneConfig-version.cmake
+[17.746s] -- Up-to-date: /home/huy/drone_auto/install/drone/share/drone/package.xml
+[17.748s] Invoked command in '/home/huy/drone_auto/build/drone' returned '0': AMENT_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huy/drone_auto/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/huy/drone_auto/build/drone

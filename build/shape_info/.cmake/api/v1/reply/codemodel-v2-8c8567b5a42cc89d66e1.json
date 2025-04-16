@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c335b9003da262b3461b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "shape_info__py",
+					"jsonFile" : "directory-shape_info__py-6aacfe17ceb7dd2a044f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/huy/drone_auto/build/shape_info/shape_info__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "shape_info",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_shape_info_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_shape_info_egg-252ca8988473f216f4e4.json",
+					"name" : "ament_cmake_python_build_shape_info_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_shape_info::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_shape_info-d31d1f9745ffad803860.json",
+					"name" : "ament_cmake_python_copy_shape_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info-89f9ad9453505a6e721e.json",
+					"name" : "shape_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__cpp-946e8b158d6b2d32b8b0.json",
+					"name" : "shape_info__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shape_info__py::@1ea0832e823ecaa2daac",
+					"jsonFile" : "target-shape_info__py-e6166e4b63a87b350796.json",
+					"name" : "shape_info__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_generator_c-88c089b0d77e53b07b19.json",
+					"name" : "shape_info__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_generator_py-1d2c228f5690cefbac93.json",
+					"name" : "shape_info__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_c-59da68851399b5774f0f.json",
+					"name" : "shape_info__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_c__pyext-c19ded775f77f1b220f7.json",
+					"name" : "shape_info__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_cpp-433ae154320f91052743.json",
+					"name" : "shape_info__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_fastrtps_c-584e004c6dc6076cc99c.json",
+					"name" : "shape_info__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_fastrtps_c__pyext-4617c64bf222654bdd2c.json",
+					"name" : "shape_info__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_fastrtps_cpp-c10f7c1bbfb680eb97e0.json",
+					"name" : "shape_info__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_introspection_c-b659d54b945d27d3cf00.json",
+					"name" : "shape_info__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_introspection_c__pyext-7450fe7dbc321aa0e9fc.json",
+					"name" : "shape_info__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info__rosidl_typesupport_introspection_cpp-89a9322c3e8134009c49.json",
+					"name" : "shape_info__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shape_info_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shape_info_uninstall-adfdd43a1a12e4bdc732.json",
+					"name" : "shape_info_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-320c66c9261b70091924.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/huy/drone_auto/build/shape_info",
+		"source" : "/home/huy/drone_auto/src/shape_info"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

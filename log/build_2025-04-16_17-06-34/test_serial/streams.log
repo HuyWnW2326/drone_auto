@@ -1,0 +1,23 @@
+[0.719s] Invoking command in '/home/huy/drone_auto/src/test_serial/test_serial': PYTHONPATH=/home/huy/drone_auto/build/test_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_serial build --build-base /home/huy/drone_auto/build/test_serial/build install --record /home/huy/drone_auto/build/test_serial/install.log --single-version-externally-managed install_data
+[0.939s] /home/huy/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.939s]   warnings.warn(msg)
+[0.965s] running egg_info
+[0.979s] writing ../../../build/test_serial/test_serial.egg-info/PKG-INFO
+[0.979s] writing dependency_links to ../../../build/test_serial/test_serial.egg-info/dependency_links.txt
+[0.979s] writing entry points to ../../../build/test_serial/test_serial.egg-info/entry_points.txt
+[0.979s] writing requirements to ../../../build/test_serial/test_serial.egg-info/requires.txt
+[0.980s] writing top-level names to ../../../build/test_serial/test_serial.egg-info/top_level.txt
+[1.011s] reading manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+[1.013s] writing manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+[1.013s] running build
+[1.013s] running build_py
+[1.013s] running install
+[1.018s] running install_lib
+[1.039s] running install_data
+[1.039s] running install_egg_info
+[1.054s] removing '/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial-0.0.0-py3.10.egg-info' (and everything under it)
+[1.054s] Copying ../../../build/test_serial/test_serial.egg-info to /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial-0.0.0-py3.10.egg-info
+[1.055s] running install_scripts
+[1.164s] Installing test_serial_node script to /home/huy/drone_auto/install/test_serial/lib/test_serial
+[1.164s] writing list of installed files to '/home/huy/drone_auto/build/test_serial/install.log'
+[1.203s] Invoked command in '/home/huy/drone_auto/src/test_serial/test_serial' returned '0': PYTHONPATH=/home/huy/drone_auto/build/test_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_serial build --build-base /home/huy/drone_auto/build/test_serial/build install --record /home/huy/drone_auto/build/test_serial/install.log --single-version-externally-managed install_data

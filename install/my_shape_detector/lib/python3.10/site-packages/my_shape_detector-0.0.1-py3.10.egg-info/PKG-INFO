@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: my_shape_detector
+Version: 0.0.1
+Summary: ROS2 package for shape detection
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache License 2.0
+License-File: LICENSE
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

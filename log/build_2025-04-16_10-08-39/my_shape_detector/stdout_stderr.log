@@ -1,0 +1,26 @@
+/home/huy/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/my_shape_detector/my_shape_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_shape_detector/my_shape_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/my_shape_detector/my_shape_detector.egg-info/entry_points.txt
+writing requirements to ../../build/my_shape_detector/my_shape_detector.egg-info/requires.txt
+writing top-level names to ../../build/my_shape_detector/my_shape_detector.egg-info/top_level.txt
+reading manifest file '../../build/my_shape_detector/my_shape_detector.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_shape_detector/my_shape_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_shape_detector/__init__.py -> /home/huy/drone_auto/build/my_shape_detector/build/lib/my_shape_detector
+copying my_shape_detector/shape_detection.py -> /home/huy/drone_auto/build/my_shape_detector/build/lib/my_shape_detector
+running install
+running install_lib
+running install_data
+copying resource/my_shape_detector -> /home/huy/drone_auto/install/my_shape_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/huy/drone_auto/install/my_shape_detector/share/my_shape_detector
+running install_egg_info
+removing '/home/huy/drone_auto/install/my_shape_detector/lib/python3.10/site-packages/my_shape_detector-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_shape_detector/my_shape_detector.egg-info to /home/huy/drone_auto/install/my_shape_detector/lib/python3.10/site-packages/my_shape_detector-0.0.1-py3.10.egg-info
+running install_scripts
+Installing shape_detection script to /home/huy/drone_auto/install/my_shape_detector/lib/my_shape_detector
+writing list of installed files to '/home/huy/drone_auto/build/my_shape_detector/install.log'

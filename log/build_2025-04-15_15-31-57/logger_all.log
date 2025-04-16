@@ -1,0 +1,287 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7af8a655b9d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7af8a655b3d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7af8a655b3d0>>, mixin_verb=('build',))
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huy/drone_auto'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone' with type 'ros.ament_cmake' and name 'drone'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_serial/test_serial) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_serial/test_serial' with type 'ros.ament_python' and name 'test_serial'
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/huy/drone_auto/install
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/huy/my_ws/install
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.305s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'px4_msgs' is in: /home/huy/drone_auto/install/px4_msgs, /home/huy/my_ws/install/px4_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding px4_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huy/drone_auto/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huy/drone_auto/install/px4_msgs', 'merge_install': False, 'path': '/home/huy/drone_auto/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'test_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'test_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huy/drone_auto/build/test_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huy/drone_auto/install/test_serial', 'merge_install': False, 'path': '/home/huy/drone_auto/src/test_serial/test_serial', 'symlink_install': False, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huy/drone_auto/build/drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huy/drone_auto/install/drone', 'merge_install': False, 'path': '/home/huy/drone_auto/src/drone', 'symlink_install': False, 'test_result_base': None}
+[0.308s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huy/drone_auto/src/px4_msgs' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huy/drone_auto/src/px4_msgs'
+[0.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/huy/drone_auto/src/test_serial/test_serial' with build type 'ament_python'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_serial', 'ament_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/test_serial/share/test_serial/hook/ament_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/test_serial/share/test_serial/hook/ament_prefix_path.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/test_serial/share/test_serial/hook/ament_prefix_path.sh'
+[0.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huy/drone_auto/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/px4_msgs -- -j12 -l12
+[0.592s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/huy/drone_auto/src/test_serial/test_serial'
+[0.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huy/drone_auto/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/px4_msgs -- -j12 -l12
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huy/drone_auto/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/px4_msgs
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huy/drone_auto/src/test_serial/test_serial': PYTHONPATH=/home/huy/drone_auto/build/test_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_serial build --build-base /home/huy/drone_auto/build/test_serial/build install --record /home/huy/drone_auto/build/test_serial/install.log --single-version-externally-managed install_data
+[1.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huy/drone_auto/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --install /home/huy/drone_auto/build/px4_msgs
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs' for CMake module files
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs' for CMake config files
+[1.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/lib'
+[1.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/bin'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/lib/python3.10/site-packages'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/bin'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.sh'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huy/drone_auto/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs' for CMake module files
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs' for CMake config files
+[2.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/lib'
+[2.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/bin'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/lib/python3.10/site-packages'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/px4_msgs/bin'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huy/drone_auto/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huy/drone_auto/src/drone' with build type 'ament_cmake'
+[2.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huy/drone_auto/src/drone'
+[2.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/shape_info:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:/home/huy/drone_auto/install/shape_info/lib:/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial' for CMake module files
+[2.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huy/drone_auto/src/test_serial/test_serial' returned '0': PYTHONPATH=/home/huy/drone_auto/build/test_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_serial build --build-base /home/huy/drone_auto/build/test_serial/build install --record /home/huy/drone_auto/build/test_serial/install.log --single-version-externally-managed install_data
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial' for CMake config files
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial/lib'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial/bin'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial/lib/pkgconfig/test_serial.pc'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages'
+[2.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_serial', 'pythonpath')
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/test_serial/share/test_serial/hook/pythonpath.ps1'
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/test_serial/share/test_serial/hook/pythonpath.dsv'
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/test_serial/share/test_serial/hook/pythonpath.sh'
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/test_serial/bin'
+[2.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_serial)
+[2.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/test_serial/share/test_serial/package.ps1'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huy/drone_auto/install/test_serial/share/test_serial/package.dsv'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/test_serial/share/test_serial/package.sh'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/test_serial/share/test_serial/package.bash'
+[2.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/test_serial/share/test_serial/package.zsh'
+[2.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huy/drone_auto/install/test_serial/share/colcon-core/packages/test_serial)
+[26.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/shape_info:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:/home/huy/drone_auto/install/shape_info/lib:/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[26.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/shape_info:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:/home/huy/drone_auto/install/shape_info/lib:/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[26.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone)
+[26.494s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone' for CMake module files
+[26.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huy/drone_auto/build/drone' returned '0': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/shape_info:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:/home/huy/drone_auto/install/shape_info/lib:/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/huy/drone_auto/build/drone
+[26.495s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone' for CMake config files
+[26.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone', 'cmake_prefix_path')
+[26.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/drone/share/drone/hook/cmake_prefix_path.ps1'
+[26.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/drone/share/drone/hook/cmake_prefix_path.dsv'
+[26.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/drone/share/drone/hook/cmake_prefix_path.sh'
+[26.496s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/lib'
+[26.496s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/bin'
+[26.496s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/lib/pkgconfig/drone.pc'
+[26.496s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/lib/python3.10/site-packages'
+[26.497s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/bin'
+[26.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.ps1'
+[26.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huy/drone_auto/install/drone/share/drone/package.dsv'
+[26.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.sh'
+[26.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.bash'
+[26.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.zsh'
+[26.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huy/drone_auto/install/drone/share/colcon-core/packages/drone)
+[26.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone)
+[26.500s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone' for CMake module files
+[26.500s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone' for CMake config files
+[26.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone', 'cmake_prefix_path')
+[26.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/drone/share/drone/hook/cmake_prefix_path.ps1'
+[26.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huy/drone_auto/install/drone/share/drone/hook/cmake_prefix_path.dsv'
+[26.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huy/drone_auto/install/drone/share/drone/hook/cmake_prefix_path.sh'
+[26.502s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/lib'
+[26.502s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/bin'
+[26.502s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/lib/pkgconfig/drone.pc'
+[26.502s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/lib/python3.10/site-packages'
+[26.502s] Level 1:colcon.colcon_core.environment:checking '/home/huy/drone_auto/install/drone/bin'
+[26.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.ps1'
+[26.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huy/drone_auto/install/drone/share/drone/package.dsv'
+[26.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.sh'
+[26.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.bash'
+[26.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/huy/drone_auto/install/drone/share/drone/package.zsh'
+[26.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huy/drone_auto/install/drone/share/colcon-core/packages/drone)
+[26.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.505s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.516s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.533s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huy/drone_auto/install/local_setup.ps1'
+[26.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huy/drone_auto/install/_local_setup_util_ps1.py'
+[26.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huy/drone_auto/install/setup.ps1'
+[26.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huy/drone_auto/install/local_setup.sh'
+[26.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huy/drone_auto/install/_local_setup_util_sh.py'
+[26.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huy/drone_auto/install/setup.sh'
+[26.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huy/drone_auto/install/local_setup.bash'
+[26.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huy/drone_auto/install/setup.bash'
+[26.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huy/drone_auto/install/local_setup.zsh'
+[26.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huy/drone_auto/install/setup.zsh'

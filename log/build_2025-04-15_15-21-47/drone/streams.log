@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/shape_info:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:/home/huy/drone_auto/install/shape_info/lib:/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[4.089s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:419:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid OffboardControl::publish_vehicle_attitude_setpoint(float, std::array<float, 4>)[m[K’
+[4.090s]   419 | void [01;31m[KOffboardControl[m[K::publish_vehicle_attitude_setpoint(float thrust_z, std::array<float, 4> quaternion)
+[4.090s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.090s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:309:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid OffboardControl::publish_vehicle_attitude_setpoint(float, std::array<float, 4>*)[m[K’
+[4.090s]   309 |     void [01;36m[Kpublish_vehicle_attitude_setpoint[m[K(float thrust_z, std::array<float, 4> quaternion[4]);
+[4.090s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.090s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:37:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass OffboardControl[m[K’ defined here
+[4.090s]    37 | class [01;36m[KOffboardControl[m[K : public rclcpp::Node
+[4.090s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.091s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::Controller_xyz(float, float, float)[m[K’:
+[4.091s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:517:85:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::array<float, 4>[m[K’ to ‘[01m[Kstd::array<float, 4>*[m[K’
+[4.091s]   517 |     publish_vehicle_attitude_setpoint(Controller_z(DesiredValueZ), [01;31m[KRPY_to_Quaternion(Pitch_d, -Roll_d, Yaw_hover + M_PI/2)[m[K);
+[4.091s]       |                                                                    [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.091s]       |                                                                                     [01;31m[K|[m[K
+[4.091s]       |                                                                                     [01;31m[Kstd::array<float, 4>[m[K
+[4.091s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:309:81:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid OffboardControl::publish_vehicle_attitude_setpoint(float, std::array<float, 4>*)[m[K’
+[4.091s]   309 |     void publish_vehicle_attitude_setpoint(float thrust_z, [01;36m[Kstd::array<float, 4> quaternion[4][m[K);
+[4.091s]       |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[12.197s] gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+[12.197s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+[12.197s] gmake: *** [Makefile:146: all] Error 2
+[12.201s] Invoked command in '/home/huy/drone_auto/build/drone' returned '2': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/shape_info:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/drone_auto/install/test_serial:/home/huy/drone_auto/install/my_shape_detector:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/huy/drone_auto/install/px4_msgs/lib:/home/huy/drone_auto/install/shape_info/lib:/home/huy/my_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12

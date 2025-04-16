@@ -11,11 +11,11 @@ find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(px4_msgs REQUIRED)
-
+find_package(std_msgs REQUIRED)
 
 # Create cpp executables 
 add_executable(drone_auto_node src/drone_auto.cpp)
-ament_target_dependencies(drone_auto_node rclcpp px4_msgs)
+ament_target_dependencies(drone_auto_node rclcpp px4_msgs std_msgs)
 
 # Install cpp executables 
 install(TARGETS

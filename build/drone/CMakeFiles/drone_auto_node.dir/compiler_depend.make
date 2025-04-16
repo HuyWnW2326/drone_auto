@@ -287,6 +287,12 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
   /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_optical_flow_vel__builder.hpp \
   /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_optical_flow_vel__traits.hpp \
   /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_optical_flow_vel__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_local_position.hpp \
   /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__struct.hpp \
   /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__builder.hpp \
@@ -977,8 +983,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
@@ -1018,6 +1022,18 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
 
 /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp:
 
@@ -1185,6 +1201,10 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/input_rc__type_support.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
 /usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/c++/11/cstdint:
@@ -1246,6 +1266,8 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
@@ -1450,8 +1472,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -1755,6 +1775,28 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/input_rc__builder.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
+
+/opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
+
+/usr/include/c++/11/bit:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
+
+/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_attitude__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/distance_sensor__struct.hpp:
+
+/usr/include/c++/11/cassert:
+
 /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__struct.hpp:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
@@ -1788,8 +1830,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
-
-/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_attitude__struct.hpp:
 
 /home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_attitude__builder.hpp:
 
@@ -1901,10 +1941,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
-/home/huy/my_ws/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/distance_sensor__struct.hpp:
-
-/usr/include/c++/11/cassert:
-
 /usr/include/c++/11/list:
 
 /usr/include/c++/11/bits/stl_list.h:
@@ -1955,6 +1991,8 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
+
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
 
 /usr/include/c++/11/bits/stream_iterator.h:
@@ -2001,10 +2039,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /opt/ros/humble/include/rmw/rmw/rmw.h:
 
-/usr/include/c++/11/bits/ostream.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
-
 /usr/include/c++/11/bits/list.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
@@ -2016,12 +2050,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
-
-/opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
-
-/usr/include/c++/11/bit:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -2179,8 +2207,6 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
-
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
@@ -2240,11 +2266,3 @@ CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o: /home/huy/drone_auto/src/dr
 /usr/include/c++/11/shared_mutex:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:

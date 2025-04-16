@@ -1,0 +1,35 @@
+[0.770s] Invoking command in '/home/huy/drone_auto/src/test_serial/test_serial': PYTHONPATH=/home/huy/drone_auto/build/test_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_serial build --build-base /home/huy/drone_auto/build/test_serial/build install --record /home/huy/drone_auto/build/test_serial/install.log --single-version-externally-managed install_data
+[1.085s] /home/huy/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.085s]   warnings.warn(msg)
+[1.109s] running egg_info
+[1.111s] creating ../../../build/test_serial/test_serial.egg-info
+[1.111s] writing ../../../build/test_serial/test_serial.egg-info/PKG-INFO
+[1.111s] writing dependency_links to ../../../build/test_serial/test_serial.egg-info/dependency_links.txt
+[1.111s] writing entry points to ../../../build/test_serial/test_serial.egg-info/entry_points.txt
+[1.111s] writing requirements to ../../../build/test_serial/test_serial.egg-info/requires.txt
+[1.111s] writing top-level names to ../../../build/test_serial/test_serial.egg-info/top_level.txt
+[1.111s] writing manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+[1.126s] reading manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+[1.129s] running build
+[1.130s] running build_py
+[1.130s] creating /home/huy/drone_auto/build/test_serial/build/lib/test_serial
+[1.130s] copying test_serial/test_serial_node.py -> /home/huy/drone_auto/build/test_serial/build/lib/test_serial
+[1.130s] copying test_serial/__init__.py -> /home/huy/drone_auto/build/test_serial/build/lib/test_serial
+[1.130s] running install
+[1.138s] running install_lib
+[1.160s] creating /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial
+[1.161s] copying /home/huy/drone_auto/build/test_serial/build/lib/test_serial/test_serial_node.py -> /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial
+[1.161s] copying /home/huy/drone_auto/build/test_serial/build/lib/test_serial/__init__.py -> /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial
+[1.162s] byte-compiling /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial/test_serial_node.py to test_serial_node.cpython-310.pyc
+[1.162s] byte-compiling /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial/__init__.py to __init__.cpython-310.pyc
+[1.162s] running install_data
+[1.162s] creating /home/huy/drone_auto/install/test_serial/share/ament_index/resource_index/packages
+[1.162s] copying resource/test_serial -> /home/huy/drone_auto/install/test_serial/share/ament_index/resource_index/packages
+[1.162s] copying package.xml -> /home/huy/drone_auto/install/test_serial/share/test_serial
+[1.163s] running install_egg_info
+[1.183s] Copying ../../../build/test_serial/test_serial.egg-info to /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial-0.0.0-py3.10.egg-info
+[1.184s] running install_scripts
+[1.367s] Installing test_serial_node script to /home/huy/drone_auto/install/test_serial/lib/test_serial
+[1.369s] writing list of installed files to '/home/huy/drone_auto/build/test_serial/install.log'
+[1.494s] Invoked command in '/home/huy/drone_auto/src/test_serial/test_serial' returned '0': PYTHONPATH=/home/huy/drone_auto/build/test_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_serial build --build-base /home/huy/drone_auto/build/test_serial/build install --record /home/huy/drone_auto/build/test_serial/install.log --single-version-externally-managed install_data

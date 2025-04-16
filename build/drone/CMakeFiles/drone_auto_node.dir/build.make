@@ -99,6 +99,12 @@ drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesu
 drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_introspection_cpp.so
 drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_cpp.so
 drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_py.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 drone_auto_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 drone_auto_node: /opt/ros/humble/lib/librcl.so
 drone_auto_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -132,6 +138,8 @@ drone_auto_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 drone_auto_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 drone_auto_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 drone_auto_node: /opt/ros/humble/lib/libtracetools.so
+drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_c.so
+drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_c.so
 drone_auto_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 drone_auto_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 drone_auto_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -144,8 +152,8 @@ drone_auto_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 drone_auto_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 drone_auto_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 drone_auto_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_typesupport_c.so
-drone_auto_node: /home/huy/my_ws/install/px4_msgs/lib/libpx4_msgs__rosidl_generator_c.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+drone_auto_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 drone_auto_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 drone_auto_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 drone_auto_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so

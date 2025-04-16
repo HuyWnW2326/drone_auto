@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "shape_info__py",
+		"source" : "/home/huy/drone_auto/build/shape_info/shape_info__py"
+	}
+}

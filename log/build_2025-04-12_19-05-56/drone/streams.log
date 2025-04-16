@@ -1,0 +1,19 @@
+[0.008s] Invoking command in '/home/huy/drone_auto/build/drone': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target drone_auto_node[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o[0m
+[2.585s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K In lambda function:
+[2.585s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:79:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.585s]    79 |         [this]([01;35m[Kconst px4_msgs::msg::DistanceSensor::UniquePtr msg[m[K) {
+[2.585s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.608s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:[m[K At global scope:
+[2.608s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:303:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid OffboardControl::velocity_setpoint(float, float, float)[m[K’
+[2.608s]   303 | void [01;31m[KOffboardControl[m[K::velocity_setpoint(float x, float y, float z){
+[2.608s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.608s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:303:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid OffboardControl::velocity_setpoint(float, float, float)[m[K’
+[2.608s] [01m[K/home/huy/drone_auto/src/drone/src/drone_auto.cpp:36:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass OffboardControl[m[K’ defined here
+[2.608s]    36 | class [01;36m[KOffboardControl[m[K : public rclcpp::Node
+[2.608s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[9.303s] gmake[2]: *** [CMakeFiles/drone_auto_node.dir/build.make:76: CMakeFiles/drone_auto_node.dir/src/drone_auto.cpp.o] Error 1
+[9.303s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drone_auto_node.dir/all] Error 2
+[9.303s] gmake: *** [Makefile:146: all] Error 2
+[9.306s] Invoked command in '/home/huy/drone_auto/build/drone' returned '2': CMAKE_PREFIX_PATH=/home/huy/drone_auto/install/px4_msgs:/home/huy/drone_auto/install/drone:/home/huy/my_ws/install/quadcopter:/home/huy/my_ws/install/pkgname:/home/huy/my_ws/install/px4_msgs:/home/huy/my_ws/install/bme680_sensor:/opt/ros/humble /usr/bin/cmake --build /home/huy/drone_auto/build/drone -- -j12 -l12

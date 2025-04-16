@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/test_serial/test_serial.egg-info/PKG-INFO
+../../../build/test_serial/test_serial.egg-info/SOURCES.txt
+../../../build/test_serial/test_serial.egg-info/dependency_links.txt
+../../../build/test_serial/test_serial.egg-info/entry_points.txt
+../../../build/test_serial/test_serial.egg-info/requires.txt
+../../../build/test_serial/test_serial.egg-info/top_level.txt
+../../../build/test_serial/test_serial.egg-info/zip-safe
+resource/test_serial
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test_serial/__init__.py
+test_serial/test_serial_node.py

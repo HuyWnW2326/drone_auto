@@ -1,0 +1,33 @@
+/home/huy/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../../build/test_serial/test_serial.egg-info
+writing ../../../build/test_serial/test_serial.egg-info/PKG-INFO
+writing dependency_links to ../../../build/test_serial/test_serial.egg-info/dependency_links.txt
+writing entry points to ../../../build/test_serial/test_serial.egg-info/entry_points.txt
+writing requirements to ../../../build/test_serial/test_serial.egg-info/requires.txt
+writing top-level names to ../../../build/test_serial/test_serial.egg-info/top_level.txt
+writing manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+reading manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+writing manifest file '../../../build/test_serial/test_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huy/drone_auto/build/test_serial/build/lib/test_serial
+copying test_serial/test_serial_node.py -> /home/huy/drone_auto/build/test_serial/build/lib/test_serial
+copying test_serial/__init__.py -> /home/huy/drone_auto/build/test_serial/build/lib/test_serial
+running install
+running install_lib
+creating /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial
+copying /home/huy/drone_auto/build/test_serial/build/lib/test_serial/test_serial_node.py -> /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial
+copying /home/huy/drone_auto/build/test_serial/build/lib/test_serial/__init__.py -> /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial
+byte-compiling /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial/test_serial_node.py to test_serial_node.cpython-310.pyc
+byte-compiling /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/huy/drone_auto/install/test_serial/share/ament_index/resource_index/packages
+copying resource/test_serial -> /home/huy/drone_auto/install/test_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/huy/drone_auto/install/test_serial/share/test_serial
+running install_egg_info
+Copying ../../../build/test_serial/test_serial.egg-info to /home/huy/drone_auto/install/test_serial/lib/python3.10/site-packages/test_serial-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_serial_node script to /home/huy/drone_auto/install/test_serial/lib/test_serial
+writing list of installed files to '/home/huy/drone_auto/build/test_serial/install.log'
